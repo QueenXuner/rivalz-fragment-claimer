@@ -154,7 +154,7 @@ export class Rivalz extends API {
         this
       );
       await Helper.delay(
-        2000,
+        15000,
         this.acc,
         `Transaction Success \nhttps://rivalz2.explorer.caldera.xyz/tx/${tx.hash}`,
         this
